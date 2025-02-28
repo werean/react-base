@@ -3,6 +3,7 @@ import { useDispatch } from "react-redux";
 // Importa componentes estilizados personalizados
 import { Title, Teste } from "../../styles/styled";
 import { Container } from "../../styles/GlobalStyles";
+import * as exempleActions from "../../store/modules/example/actions";
 
 export default function Login() {
   // Inicializa o dispatch que será usado para enviar ações ao Redux
@@ -13,11 +14,8 @@ export default function Login() {
 
     // Envia uma ação para o Redux do tipo "clicked_button"
     // Isso fará com que o reducer atualize o estado clickedButton
-    dispatch({
-      type: "clicked_button",
-    });
+    dispatch(exempleActions.clickedButton());
 
-    // Log para debug/teste
     console.log("cliquei");
   }
 

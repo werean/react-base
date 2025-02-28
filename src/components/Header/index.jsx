@@ -9,7 +9,7 @@ export default function Header() {
   // - state: estado global
   // - reducer: nome do slice definido na store
   // - clickedButton: propriedade definida no initialState
-  const clickedButton = useSelector((state) => state.reducer.clickedButton);
+  const clickedButton = useSelector((state) => state.example.clickedButton);
 
   return (
     <Nav>
