@@ -14,7 +14,7 @@ export default function Login() {
 
     // Envia uma ação para o Redux do tipo "clicked_button"
     // Isso fará com que o reducer atualize o estado clickedButton
-    dispatch(exempleActions.clickedButton());
+    dispatch(exempleActions.clickedButtonRequest());
 
     console.log("cliquei");
   }

@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 
 //import { toast } from "react-toastify";
-import Page404 from "../components/Page404";
+import Page404 from "../pages/Page404";
 import Login from "../pages/Login/Index";
 import MyRoute from "./MyRoute";
 
